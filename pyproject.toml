@@ -1,0 +1,19 @@
+[project]
+name = "0_Practice_pdm"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Sebastian Blanco Abrajan", email = "sebastian.blanco@kaxanuk.mx"},
+]
+dependencies = ["selenium==4.15.2"]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "custom"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
